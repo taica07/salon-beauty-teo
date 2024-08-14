@@ -18,7 +18,7 @@
 }
 
 function sendWhatsApp() {
-  const phonenumber = '+40737150002';
+  const phonenumber = '+40725746804';
 
   const name = document.querySelector('.visit-name').value;
   const email = document.querySelector('.visit-email').value;

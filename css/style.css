@@ -66,6 +66,16 @@ section {
   padding: 1rem 3rem;
 }
 
+#send-whats-app {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #25d366;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
+
 .btn:hover {
   background: var(--hover);
 }
@@ -551,6 +561,15 @@ section {
 }
 
 .visit .row form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: var(--white);
+  text-transform: none;
+  background: none;
+}
+
+.visit .row form .inputBox textarea {
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
