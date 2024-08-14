@@ -35,13 +35,13 @@ function sendWhatsApp() {
     '*Email :* ' +
     email +
     '%0a' +
-    '*Country:* ' +
+    '*Subject:* ' +
     country +
     '%0a' +
     '*Message :* ' +
     message +
     '%0a%0a' +
-    'This is an example of send HTML form data to WhatsApp';
+    '';
 
   window.open(url, '_blank').focus();
 }
